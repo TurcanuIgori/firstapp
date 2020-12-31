@@ -1,0 +1,8 @@
+version: "3.9"
+firstapp:
+  build .
+  ports:
+    - "8086:8080"
+  image: iturcanud/firstapp:v1
+  volumes:
+    - D:\docker\volume:/mnt
